@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    
+        <!-- Form Title -->
+        <h1 class="title">Sign Up</h1>
+        <!-- Input Wrapper-->
+            <form id="signup-form">
+                <div class="input-field">
+                    <input id=first_name type="text" placeholder="First Name" required>
+                    <input id=last_name type="text" placeholder="Last Name" required>
+                    
+                </div>
+                <div class="input-field">
+                    <input id=mobile_number type="text" placeholder="Mobile No." required>
+                    
+                </div>
+                <div class="input-field">
+                    <input id=email type="email" placeholder="Email Address" required>
+                    
+                </div>
+                <div class="input-field">
+                    <input id=password type="password" class="password" placeholder="Password" required>
+                    <input id=confirm_password type="password" class="password" placeholder="Confirm password" required>
+                </div>
+                
+
+                <div class="checkbox">
+                    <div class="checkbox-field">
+                        <label><input type="checkbox" id="agree" value="Agreed" >I agree</label> </label>
+                    </div>
+                    <div class="checkbox-text">
+                        <p>By clicking <span>Register</span>, you agree to the <a href="">Terms and Conditions</a> set out by this site, including our Cookie Use.</p>
+                    </div>
+                </div>
+
+                <div class="input-field button">
+                    <button class=register type="button" >Register</button>
+                    <button class= sign_in type="submit" >Sign In</button>
+                </div>
+            </form>
+
     
 </body>
 </html>
